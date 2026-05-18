@@ -1,13 +1,13 @@
 # t20-world-cup-sql-analysis
 SQL-based analysis of T20 World Cup data to uncover match trends, team performance, toss impact, venue influence, and qualification insights.
-## 📌 Project Overview
+##  Project Overview
 This project analyzes T20 World Cup 2026 data using SQL and Power BI to uncover match trends, tournament strategies, team consistency, venue impact, and qualification patterns.
 
 The project focuses on transforming raw cricket match data into meaningful insights through SQL queries, aggregations, joins, and analytical reporting.
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 - Analyze team performances throughout the tournament
 - Study the impact of toss decisions on match outcomes
 - Evaluate batting-first vs chasing success rates
@@ -17,7 +17,7 @@ The project focuses on transforming raw cricket match data into meaningful insig
 
 ---
 
-# 🛠️ Tools & Technologies
+#  Tools & Technologies
 - SQL (MySQL)
 - Power BI
 - Kaggle Dataset
@@ -25,7 +25,7 @@ The project focuses on transforming raw cricket match data into meaningful insig
 
 ---
 
-# 📂 Dataset Information
+# Dataset Information
 
 The dataset contains:
 - Match details
@@ -41,7 +41,7 @@ The dataset contains:
 
 ---
 
-# 🧹 Data Cleaning Performed
+#  Data Cleaning Performed
 - Imported CSV datasets into SQL tables
 - Cleaned and structured tournament data
 - Converted Net Run Rate values for numerical analysis
@@ -49,35 +49,35 @@ The dataset contains:
 
 ---
 
-# 🔍 Key Analysis Performed
+#  Key Analysis Performed
 
-## 🏆 Team Performance Analysis
+##  Team Performance Analysis
 - Evaluated total wins and tournament consistency
 - Compared match wins with overall points table standings
 
-## 🎯 Toss Impact Analysis
+## Toss Impact Analysis
 - Analyzed whether toss-winning teams gained strategic advantage
 - Compared batting-first and chasing success rates
 
-## 📈 Team Consistency Analysis
+##  Team Consistency Analysis
 - Studied win-loss ratios and qualification trends
 - Identified teams with the most stable tournament performance
 
-## ⚔️ Knockout Match Analysis
+##  Knockout Match Analysis
 - Evaluated performance in Semi-finals and Finals
 - Measured pressure-handling capability of teams
 
-## 🏟️ Venue Performance Analysis
+##  Venue Performance Analysis
 - Studied venue-wise winning trends
 - Analyzed how stadium conditions influenced match outcomes
 
-## 🚀 Qualification Analysis
+##  Qualification Analysis
 - Examined qualification thresholds
 - Investigated the role of Net Run Rate (NRR) in tournament progression
 
 ---
 
-# 📊 Key Insights
+#  Key Insights
 
 - Teams batting first showed higher winning percentages in multiple matches.
 - Consistent performance across matches contributed more to qualification than isolated victories.
@@ -87,7 +87,7 @@ The dataset contains:
 
 ---
 
-# 📌 Example SQL Queries
+#  Example SQL Queries
 
 ## Toss Impact Analysis
 ```sql
@@ -131,21 +131,15 @@ ORDER BY stage, wins DESC;
 
 ---
 
-# 📈 Dashboard Features
+#  Dashboard Features
 - Toss Analysis Dashboard
 - Team Performance Dashboard
 - Venue Analysis Dashboard
 - Qualification Analysis Dashboard
 - Knockout Stage Performance Dashboard
-
 ---
 
-# 📷 Dashboard Preview
-(Add Power BI dashboard screenshots here)
-
----
-
-# 📌 Skills Demonstrated
+#  Skills Demonstrated
 - SQL Joins
 - Aggregations
 - GROUP BY & HAVING
@@ -157,7 +151,7 @@ ORDER BY stage, wins DESC;
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 - Add player-level performance analysis
 - Include ball-by-ball match analysis
 - Build predictive models using Python
@@ -165,7 +159,7 @@ ORDER BY stage, wins DESC;
 
 ---
 
-# 📚 Learning Outcomes
+#  Learning Outcomes
 This project improved understanding of:
 - Real-world SQL analysis workflows
 - Sports analytics techniques
@@ -174,5 +168,5 @@ This project improved understanding of:
 
 ---
 
-# 🤝 Conclusion
+#  Conclusion
 This project demonstrates how SQL and data analytics can be used to transform raw cricket tournament data into strategic insights regarding team performance, match outcomes, consistency, and qualification patterns.
